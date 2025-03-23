@@ -7,7 +7,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 day_df = pd.read_csv('https://raw.githubusercontent.com/Jessica1711/Bike-Sharing-Dataset/refs/heads/main/data/day.csv')
-hour_df = pd.read_csv('/content/drive/MyDrive/Proyek Analisis Data/hour.csv')
+hour_df = pd.read_csv('https://raw.githubusercontent.com/Jessica1711/Bike-Sharing-Dataset/refs/heads/main/data/hour.csv')
 
 # Streamlit app
 st.title("Analisis Data dengan Python 'Bike Sharing Data Dataset' :sparkle: ")
