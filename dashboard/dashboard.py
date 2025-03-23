@@ -6,8 +6,7 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-from google.colab import drive
-day_df = pd.read_csv('/content/drive/MyDrive/Proyek Analisis Data/day.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/Jessica1711/Bike-Sharing-Dataset/refs/heads/main/data/day.csv')
 hour_df = pd.read_csv('/content/drive/MyDrive/Proyek Analisis Data/hour.csv')
 
 # Streamlit app
